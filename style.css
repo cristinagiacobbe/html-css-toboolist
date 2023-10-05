@@ -16,7 +16,11 @@ font-family: 'Kanit', sans-serif;
 {
     background-color: rgb(150, 155, 160);
 }
-
+.debug .container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(60, 160, 160);
+}
 
 /* #end utility region */
 .logo{
@@ -24,4 +28,8 @@ font-family: 'Kanit', sans-serif;
 }
 .title{
     display: inline;    
+}
+.container{
+    margin: auto;
+    margin-top: 50px;
 }
