@@ -1,0 +1,27 @@
+/* #region common */
+*
+{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Kanit', sans-serif;
+}
+
+/* #endregion common */
+
+/* #region utility */
+.debug header{
+    background-color: red;
+}
+.debug
+{
+    background-color: rgb(150, 155, 160);
+}
+
+
+/* #end utility region */
+.logo{
+    padding: 10px;
+}
+.title{
+    display: inline;    
+}
