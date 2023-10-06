@@ -66,7 +66,7 @@ header{
     background-color: white;
     text-align: center;
 }
-.new-task{
+.new-task, .today{
     padding:30px;
 }
 li{
@@ -83,14 +83,37 @@ li{
     color: lightgreen;
     text-align: center;
 }
-.quaterly{
+.text{
     display: inline-block;
 }
-.link-editorial{
+.link {
     display: inline-block;
     width: 80px;
     text-align: center;
-    background-color: rgb(51, 137, 187);
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.editorial{
+    background-color: rgb(62, 137, 235);
+}
+.goal{
+    background-color: blueviolet;
+}
+.recruiting{
+    background-color: rgb(56, 143, 89);
+}
+.mobile{
+    background-color: orange;
+}
+.uncheck{
+    display:inline-block;
+    width: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
 }
