@@ -66,3 +66,17 @@ header{
     background-color: white;
     text-align: center;
 }
+.new-task{
+    padding:30px;
+}
+li{
+    list-style-type: none;
+}
+.check{
+    display:inline-block;
+    width: 20px;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    color: lightgreen;
+    text-align: center;
+}
