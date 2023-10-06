@@ -21,7 +21,7 @@ header{
 .debug .container{
     width: 500px;
     height: 500px;
-    background-color: rgb(60, 160, 160);
+    background-color: white;
 }
 
 /* #end utility region */
@@ -72,6 +72,9 @@ header{
 li{
     list-style-type: none;
 }
+.row list{
+    display: inline-block;
+}
 .check{
     display:inline-block;
     width: 20px;
@@ -79,4 +82,15 @@ li{
     border-radius: 50%;
     color: lightgreen;
     text-align: center;
+}
+.quaterly{
+    display: inline-block;
+}
+.link-editorial{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    background-color: rgb(51, 137, 187);
+    color: white;
+    border-radius: 5px;
 }
