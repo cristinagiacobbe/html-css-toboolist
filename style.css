@@ -9,9 +9,11 @@ font-family: 'Kanit', sans-serif;
 /* #endregion common */
 
 /* #region utility */
-.debug header{
-    background-color: red;
+
+header{
+    background-color: white;
 }
+
 .debug
 {
     background-color: rgb(150, 155, 160);
@@ -25,11 +27,42 @@ font-family: 'Kanit', sans-serif;
 /* #end utility region */
 .logo{
     padding: 10px;
+    vertical-align: middle;
 }
 .title{
-    display: inline;    
+    display: inline-block;
+    vertical-align: middle;    
 }
 .container{
     margin: auto;
     margin-top: 50px;
+}
+/* .key{
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+.add{
+    border-bottom: 1px solid grey;
+}
+.add-task{
+    display: inline-block;
+    width: 75px;
+    border: 1px solid white;  
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    margin: 10px 2px 3px 30px;
+}
+.add-section{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-color: grey;
+    color: grey;
+    background-color: white;
+    text-align: center;
 }
